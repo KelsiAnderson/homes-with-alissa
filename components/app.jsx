@@ -8,6 +8,9 @@ function App(){
             <Switch>
                 <Route exact path='/about'>
                 </Route>
+                <Route exact path='/contact'>
+                    <Contact />
+                </Route>
             </Switch>
         </Router>
     );
