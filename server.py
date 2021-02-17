@@ -38,3 +38,8 @@ def contact():
     """displays contact page"""
 
     return render_tempalte("base.html")
+
+if __name__ == '__main__':
+    connect_to_db(app)
+    # only this host number works for Yuri, look into why
+    app.run(host='127.0.0.1', debug=True, port=5002)
