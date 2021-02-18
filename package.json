@@ -2,11 +2,12 @@
   "name": "homes-with-alissa",
   "version": "1.0.0",
   "description": "Alissa's react website",
-  "main": "index.js",
+  "main": "pages/app.jsx",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
