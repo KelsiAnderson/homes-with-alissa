@@ -1,7 +1,8 @@
 import Navbar from 'react-bootstrap/Navbar';
-// import Form from 'react-bootstrap/Form';
-// import Button from 'react-bootstrap/Button';
-// import FormConmtrol from 'react-bootstrap/FormControl';
+import Nav from "react-bootstrap/Nav";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import {Form, FormControl, FormGroup, ControlLabel, HelpBlock, Checkbox, Radio, Button, Container} from 'react-bootstrap';
 
 
@@ -16,12 +17,23 @@ const links = [
     {href: '/recentSales', label: 'Recent Sales'}
 ];
 
-export default function Nav ({children}) {
+export default function Navagate ({children}) {
     return (
 
   <Container>
   <Navbar expand="lg" variant="light" bg="light">
-    <Navbar.Brand href="#">Navbar</Navbar.Brand>
+    <Navbar.Brand href="/">Homepage</Navbar.Brand>
+    <Nav.Link href="/about">About</Nav.Link>
+    <Nav.Link href="/listings">listings</Nav.Link>
+    <Nav.Link href="/testimonials">Testimonials</Nav.Link>
+    <Nav.Link href="/contact">Contact Me</Nav.Link>
+    <Nav.Link href="/recentSales">Recent Sales</Nav.Link>
+
+
+
+
+
+
   </Navbar>
 </Container>
     )
