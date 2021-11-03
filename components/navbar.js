@@ -10,9 +10,7 @@ import {Form, FormControl, FormGroup, ControlLabel, HelpBlock, Checkbox, Radio, 
 
 const links = [
     {href: '/', label: 'homepage'},
-    {href: '/listings', label: 'Current Listings'},
     {href: '/testimonials', label: 'Client Testimonials'},
-    {href: '/about', label: 'About Alissa'},
     {href: '/contact', label: 'Contact Alissa'},
     {href: '/recentSales', label: 'Recent Sales'}
 ];
@@ -22,9 +20,7 @@ export default function Navagate ({children}) {
 
   <Container>
   <Navbar expand="lg" variant="light" bg="light">
-    <Navbar.Brand href="/">Homepage</Navbar.Brand>
-    <Nav.Link href="/about">About</Nav.Link>
-    <Nav.Link href="/listings">listings</Nav.Link>
+    <Navbar.Brand href="/">About</Navbar.Brand>
     <Nav.Link href="/testimonials">Testimonials</Nav.Link>
     <Nav.Link href="/contact">Contact Me</Nav.Link>
     <Nav.Link href="/recentSales">Recent Sales</Nav.Link>
