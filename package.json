@@ -2,12 +2,11 @@
   "name": "homes-with-alissa",
   "version": "1.0.0",
   "description": "Alissa's react website",
-  "main": "pages/app.jsx",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -23,8 +22,11 @@
   },
   "homepage": "https://github.com/KelsiAnderson/homes-with-alissa#readme",
   "dependencies": {
+    "bootstrap": "^4.6.0",
+    "graphql-request": "^3.4.0",
     "next": "^10.0.6",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
@@ -32,6 +34,3 @@
     "datocms-client": "^3.3.0"
   }
 }
-
-
-
