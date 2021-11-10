@@ -1,5 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from '../components/navbar.js';
+import ContactInfo from '../components/contactForm.js';
+
 export default function Contact(){
     return (
-        <div><h1>Find my contact info here!</h1></div>
-    )
+        <div>
+        <Nav />
+        <ContactInfo />
+        </div>
+    );
 }
