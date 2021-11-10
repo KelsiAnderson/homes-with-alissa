@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from '../components/navbar.js';
 // import { request } from "../datocms";
 import SearchBar from "./searchBar"
+import formInstance from "./components/contactForm.js"
 
 
 export default function Home({ data }) {
