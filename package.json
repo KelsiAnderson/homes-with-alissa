@@ -2,7 +2,7 @@
   "name": "homes-with-alissa",
   "version": "1.0.0",
   "description": "Alissa's react website",
-  "main": "index.js",
+ 
   "scripts": {
     "dev": "next dev",
     "build": "next build",

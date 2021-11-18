@@ -1,11 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from '../components/navbar.js';
+import Layout from '../components/layout';
 
 export default function Testimonials(){
     return (
-        <div>
-            <Nav></Nav>
-            <h1>This is where people tell me if they like my services or not</h1>
-        </div>
+			<div>
+				<h1>This is where people tell me if they like my services or not</h1>
+			</div>
     )
+}
+
+Testimonials.getLayout = function getlayout(page) {
+	return (
+		<Layout>
+			{page}
+		</Layout>
+	)
 }

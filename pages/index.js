@@ -1,20 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from '../components/navbar.js';
+import Layout from '../components/layout'
 // import { request } from "../datocms";
-import SearchBar from "./searchBar"
 
-export default function Home({ data }) {
-    return (
-        <div>
-            <Nav></Nav>
-            <h1>Welcome to the homepage</h1>
-          <div>
-            <SearchBar />
-          </div>
-        </div>
-        
-    )
+export default function Home() {
+  return (
+    <h1>Hi, I am Alyssa</h1>
+  );
 }
+
+Home.getLayout = function getlayout(page) {
+  return (
+    <Layout >
+      {page}
+    </Layout>
+  );
+}
+
 
   
   
