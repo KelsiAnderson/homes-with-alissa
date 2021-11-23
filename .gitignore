@@ -2,3 +2,4 @@ env
 nextjs-blog
 node_modules
 secrets.sh
+.next
