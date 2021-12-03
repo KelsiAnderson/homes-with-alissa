@@ -3,3 +3,4 @@ nextjs-blog
 node_modules
 secrets.sh
 .next
+.env.local
