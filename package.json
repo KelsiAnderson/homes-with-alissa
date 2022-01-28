@@ -2,7 +2,6 @@
   "name": "homes-with-alissa",
   "version": "1.0.0",
   "description": "Alissa's react website",
- 
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,6 +22,7 @@
   "homepage": "https://github.com/KelsiAnderson/homes-with-alissa#readme",
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "graphql": "^16.3.0",
     "graphql-request": "^3.4.0",
     "next": "^10.0.6",
     "react": "^17.0.1",

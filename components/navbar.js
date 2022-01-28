@@ -5,14 +5,12 @@ import {Form, FormControl, FormGroup, ControlLabel, HelpBlock, Checkbox, Radio, 
 
 export default function Navs ({children}) {
     return (
-  <Container>
-  <Navbar expand="lg" variant="light" bg="light">
+  <Navbar expand="lg" variant="dark" bg="dark">
     <Navbar.Brand href="/">Alyssa</Navbar.Brand>
     <Nav.Link href="/about">About</Nav.Link>
     <Nav.Link href="/testimonials">Testimonials</Nav.Link>
     <Nav.Link href="/recentSales">Recent Sales</Nav.Link>
     <Nav.Link href="/contact">Contact Me</Nav.Link>
   </Navbar>
-</Container>
     )
 };
